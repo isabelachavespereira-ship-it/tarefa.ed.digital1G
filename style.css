@@ -1,1 +1,44 @@
+body{
+    backgrund color: ;:
+color: font-family:Arial, sans-serif;
+}
+header{
+    backgrund color: ;
+    color:rgb(42, 218, 231) ;
+    text-align:center;
+    /* padding 30px */;
+}
+h1{
+    font-size: 36px;
+}
+h2{
+    color:rgb(52, 195, 214)
+}
+p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+main{
+    width: 80
+    margin: auto;
+}
+section {
+    backgrund-color: rgb(3, 156, 245);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 12px;
+}
+img{
+    width: 100;
+    display: block;
+    margin: auto:
+    max-width: 600px;
+    border-radius: 12px
+}
+figcapition{
+    text-align: center;
+    font-size: 14px;
+    color:rgba(112, 184, 233, 0.637)
+    margin-top: 8px
+}
 
