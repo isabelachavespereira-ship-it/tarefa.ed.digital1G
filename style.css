@@ -1,23 +1,45 @@
 body{
-    backgrund color: ;:
+    backgrund color: #;
 color: font-family:Arial, sans-serif;
+margin: 0;
 }
+
 header{
-    backgrund color: ;
+    backgrund color:# ;
     color:rgb(42, 218, 231) ;
     text-align:center;
     /* padding 30px */;
 }
+
 h1{
     font-size: 36px;
 }
+
 h2{
     color:rgb(52, 195, 214)
 }
+
 p{
     font-size: 18px;
     line-height: 1.6;
 }
+nav{
+    margin-top:20px ;
+}
+nav a {
+    color: white;
+    text-decoration:none;
+    background-color: rgb(129, 175, 216);
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin:5px; 
+    display:inline-block;
+
+}
+nav a:hover {
+    background-color: aquamarine;:
+}
+
 main{
     width: 80
     margin: auto;
@@ -38,6 +60,24 @@ img{
 figcapition{
     text-align: center;
     font-size: 14px;
-    color:rgba(112, 184, 233, 0.637)
-    margin-top: 8px
+    color:rgba(112, 184, 233, 0.637);
+    margin-top: 8px;
+}
+card{
+ background-color: blue;
+ padding: 15px;
+ margin: 15px 0;
+ border-left: 6px solid #d4afcb;
+ border-radius: 10px;
+
+}
+card h3{
+    margin-top: 0;
+}
+footer{
+    background-color: azure;
+    color: aqua;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
 }
