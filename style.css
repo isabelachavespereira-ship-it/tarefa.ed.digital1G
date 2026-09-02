@@ -1,12 +1,13 @@
 body{
     backgrund color: #FFFFFF;
-color: font-family:Arial, sans-serif;
+color: #271CA4;
+font-family:Arial, sans-serif;
 margin: 0;
 }
 
 header{
-    backgrund color: #271CA4 ;
-    color:rgb(42, 218, 231) ;
+    backgrund color: #FFFFFF ;
+    color: white;
     text-align:center;
     /* padding 30px */;
 }
@@ -16,7 +17,7 @@ h1{
 }
 
 h2{
-    color:rgb(52, 195, 214)
+    color: #271ca4;
 }
 
 p{
@@ -29,7 +30,7 @@ nav{
 nav a {
     color: white;
     text-decoration:none;
-    background-color: rgb(89, 167, 235);
+    background-color: #271ca4;
     padding: 10px 15px;
     border-radius: 8px;
     margin:5px; 
@@ -37,7 +38,7 @@ nav a {
 
 }
 nav a:hover {
-    background-color: aquamarine;:
+    background-color: #271ca4 ;
 }
 
 main{
@@ -45,7 +46,7 @@ main{
     margin: auto;
 }
 section {
-    backgrund-color: rgb(3, 156, 245);
+    backgrund-color: #FFFFFF;
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
@@ -60,14 +61,14 @@ img{
 figcapition{
     text-align: center;
     font-size: 14px;
-    color:rgba(112, 184, 233, 0.637);
+    color:#271ca4;
     margin-top: 8px;
 }
 card{
- background-color: blue;
+ background-color: #271ca4;
  padding: 15px;
  margin: 15px 0;
- border-left: 6px solid #d4afcb;
+ border-left: 6px solid #FFFFFF;
  border-radius: 10px;
 
 }
@@ -75,8 +76,8 @@ card h3{
     margin-top: 0;
 }
 footer{
-    background-color: azure;
-    color: aqua;
+    background-color: white;
+    color:#271ca4;
     text-align: center;
     padding: 20px;
     margin-top: 30px;
