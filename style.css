@@ -1,83 +1,92 @@
-body{
-    backgrund color: #FFFFFF;
-color: #271CA4;
-font-family:Arial, sans-serif;
-margin: 0;
+body {
+    background-color: #FFFFFF;
+    color: #271CA4;
+    font-family: Arial, sans-serif;
+    margin: 0;
 }
 
-header{
-    backgrund color: #FFFFFF ;
+header {
+    background-color: #FFFFFF;
     color: white;
-    text-align:center;
-    /* padding 30px */;
+    text-align: center;
+    padding: 30px;
 }
 
-h1{
+h1 {
     font-size: 36px;
 }
 
-h2{
+h2 {
     color: #271ca4;
 }
 
-p{
+p {
     font-size: 18px;
     line-height: 1.6;
 }
-nav{
-    margin-top:20px ;
+
+nav {
+    margin-top: 20px;
 }
+
 nav a {
     color: white;
-    text-decoration:none;
+    text-decoration: none;
     background-color: #271ca4;
     padding: 10px 15px;
     border-radius: 8px;
-    margin:5px; 
-    display:inline-block;
+    margin: 5px;
+    display: inline-block;
 
 }
+
 nav a:hover {
-    background-color: #271ca4 ;
+    background-color: #271ca4;
 }
 
-main{
-    width: 80
+main {
+    width: 80%;
     margin: auto;
 }
+
 section {
-    backgrund-color: #FFFFFF;
+    background-color: #FFFFFF;
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
 }
-img{
+
+img {
     width: 100;
     display: block;
-    margin: auto:
+    margin: auto;
     max-width: 600px;
     border-radius: 12px
 }
-figcapition{
+
+figcaption {
     text-align: center;
     font-size: 14px;
-    color:#271ca4;
+    color: #271ca4;
     margin-top: 8px;
 }
-card{
- background-color: #271ca4;
- padding: 15px;
- margin: 15px 0;
- border-left: 6px solid #FFFFFF;
- border-radius: 10px;
+
+.card {
+    background-color: #271ca4;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 6px solid #FFFFFF;
+    border-radius: 10px;
 
 }
-card h3{
+
+.card h3 {
     margin-top: 0;
 }
-footer{
+
+footer {
     background-color: white;
-    color:#271ca4;
+    color: #271ca4;
     text-align: center;
     padding: 20px;
     margin-top: 30px;
