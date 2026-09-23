@@ -13,3 +13,7 @@ botoesCurtir.forEach(function(botaoCurtir){
         }
     }
 });
+
+
+
+
