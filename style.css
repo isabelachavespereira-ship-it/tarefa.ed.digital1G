@@ -1,12 +1,25 @@
+:root{
+    --cor-fundo: #212a49;
+    --cor-texto: #222222;
+    --cor-principal: #052036;
+    --cor-secundaria:  #271ca4;
+    --cor-hover: #3323e2;
+    --cor-superficie: #FFFFFF;
+    --cor-card: #000000;
+    --cor-legenda: #5c54b4;
+    --cor-clara: #FFFFFF;
+    --cor-rodape:rgb(70, 112, 204);
+}
+
 body {
-    background-color: #FFFFFF;
-    color: #271CA4;
+    background-color: #212a49;
+    color: #675eca;
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 header {
-    background-color: #dedfbe;
+    background-color: #052036;
     color: white;
     text-align: center;
     padding: 30px;
@@ -17,7 +30,7 @@ h1 {
 }
 
 h2 {
-    color: #271ca4;
+    color:#052036;
 }
 
 p {
@@ -27,17 +40,6 @@ p {
 
 nav {
     margin-top: 20px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    background-color: #271ca4;
-    padding: 10px 15px;
-    border-radius: 8px;
-    margin: 5px;
-    display: inline-block;
-
 }
 
 nav a:hover {
@@ -58,7 +60,7 @@ section {
 
 img {
     width: 100;
-    display: block;
+    #271ca4;display: block;
     max-width: 600px;
     margin: auto;
     border-radius: 12px
@@ -72,10 +74,10 @@ figcaption {
 }
 
 .card {
-    background-color: #736cbd;
+    background-color: #000000;
     padding: 15px;
     margin: 15px 0;
-    border-left: 6px solid #FFFFFF;
+    border-left: 6px solid #052036;
     border-radius: 10px;
 
 }
@@ -85,19 +87,33 @@ figcaption {
 }
 
 footer {
-    background-color: rgb(228, 224, 189);
+    background-color: rgb(70, 112, 204);
     color: #271ca4;
     text-align: center;
     padding: 20px;
     margin-top: 30px;
 }
-
 button{
     background-color: #271CA4;
     color: #d4d4e0;
      border: none;
      padding: 10px 15px;
      border-radius: 8px;
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    color:#052036;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+nav {
      cursor: pointer;
 }
 button:hover {
