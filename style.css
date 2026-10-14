@@ -42,8 +42,18 @@ nav {
     margin-top: 20px;
 }
 
+nav a {
+    color: var(--cor-clara);
+    text-decoration: none;
+    background-color: var(--cor-secundaria);
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 5px;
+    display: inline-block;
+}
+
 nav a:hover {
-    background-color: #271ca4;
+    background-color: var(--cor-hover);
 }
 
 main {
@@ -52,34 +62,33 @@ main {
 }
 
 section {
-    background-color: #FFFFFF;
+    background-color: var(--cor-superficie);
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
 }
 
 img {
-    width: 100;
-    #271ca4;display: block;
+    width: 100%;
     max-width: 600px;
+    display: block;
     margin: auto;
-    border-radius: 12px
+    border-radius: 12px;
 }
 
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: #5c54b4;
+    color: var(--cor-legenda);
     margin-top: 8px;
 }
 
 .card {
-    background-color: #000000;
+    background-color: var(--cor-card);
     padding: 15px;
     margin: 15px 0;
-    border-left: 6px solid #052036;
+    border-left: 6px solid var(--cor-principal);
     border-radius: 10px;
-
 }
 
 .card h3 {
@@ -87,41 +96,40 @@ figcaption {
 }
 
 footer {
-    background-color: rgb(70, 112, 204);
-    color: #271ca4;
+    background-color: var(--cor-rodape);
+    color: var(--cor-clara);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
 }
-button{
-    background-color: #271CA4;
-    color: #d4d4e0;
-     border: none;
-     padding: 10px 15px;
-     border-radius: 8px;
 
-h1 {
-    font-size: 36px;
+button {
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
-h2 {
-    color:#052036;
-}
-
-p {
-    font-size: 18px;
-    line-height: 1.6;
-}
-
-nav {
-     cursor: pointer;
-}
 button:hover {
-    background-color: #4136b8;
+    background-color: var(--cor-hover);
 }
 
-.curtir{
+{
+    .curtir 
     display: block;
-    width: fit-content;
-    margin: 20px auto;
+    width: fit-conten
+    margin: 20px auto; 
+}
+.galeria{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards-curiosidades{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
