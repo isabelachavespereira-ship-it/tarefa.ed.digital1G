@@ -1,14 +1,14 @@
-:root{
+:root {
     --cor-fundo: #212a49;
     --cor-texto: #222222;
     --cor-principal: #052036;
-    --cor-secundaria:  #271ca4;
+    --cor-secundaria: #271ca4;
     --cor-hover: #3323e2;
     --cor-superficie: #FFFFFF;
     --cor-card: #000000;
     --cor-legenda: #5c54b4;
     --cor-clara: #FFFFFF;
-    --cor-rodape:rgb(70, 112, 204);
+    --cor-rodape: rgb(70, 112, 204);
 }
 
 body {
@@ -30,7 +30,7 @@ h1 {
 }
 
 h2 {
-    color:#052036;
+    color: #052036;
 }
 
 p {
@@ -117,19 +117,21 @@ button:hover {
     background-color: var(--cor-hover);
 }
 
-{
-    .curtir 
+
+.curtir {
     display: block;
-    width: fit-conten
-    margin: 20px auto; 
+    width: fit-content;
+    margin: 20px auto;
 }
-.galeria{
+
+.galeria {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
 }
-.cards-curiosidades{
+
+.cards-curiosidades {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
